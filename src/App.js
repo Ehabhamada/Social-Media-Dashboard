@@ -11,7 +11,7 @@ function App() {
   };
 
   return (
-    <div className={darkMode?"dark":""} nambase="Social-Media-Dashboard">
+    <div className={darkMode?"dark":""} basename="Social-Media-Dashboard">
       <div className="  text-slate-400 dark:text-slate-300  dark:bg-darkbg-dark pb-12">
         <Header handleMode={handleModeChange}/>
         <div className="container -mt-40  ">
